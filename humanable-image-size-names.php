@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Удобные названия размеров изображений
-Description: Данный плагин позволяет Crop Thumbnails использовать удобные и понятные размеры изображений.
+Plugin Name: Humanable image size names
+Description: It is a WordPress plugin that allows themes and other plugins to translate image size names into a readable form that is displayed using the Crop Thumbnails plugin.
 Version: 1.0.0
 */
 
