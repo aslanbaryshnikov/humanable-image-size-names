@@ -15,17 +15,13 @@ if (is_plugin_active('crop-thumbnails/crop-thumbnails.php')) {
 		$translates = apply_filters( 'humanable_image_size_names', []);
 
 		foreach ($sizes as &$size) {
-			$translatedName = '';
 
 			foreach ($translates as $key => $value) {
+
 				if ($size['name'] === $key) {
-					$translatedName = $value;
+					$size['name'] = $value;
 					break;
 				}
-			}
-
-			if (!empty($translatedName)) {
-				$size['name'] = $translatedName;
 			}
 		}
 
