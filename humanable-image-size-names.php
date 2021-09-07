@@ -12,11 +12,11 @@ if (!function_exists('get_plugins')) {
 if (is_plugin_active('crop-thumbnails/crop-thumbnails.php')) {
 	function sizes_filter($sizes) {
 
-		$translates = apply_filters( 'humanable_image_size_names', []);
+		$translations = apply_filters( 'humanable_image_size_names', []);
 
 		foreach ($sizes as &$size) {
 
-			foreach ($translates as $key => $value) {
+			foreach ($translations as $key => $value) {
 
 				if ($size['name'] === $key) {
 					$size['name'] = $value;

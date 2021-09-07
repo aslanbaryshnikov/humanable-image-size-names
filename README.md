@@ -10,6 +10,7 @@ Move the plugin folder to the *wp-content/plugins/directory*, activate the plugi
 function translate_names($names) {
 
 	return array_merge($names, [
+		// your translations should be here... for example:
 		'your-image-size' => _( 'Home background' ),
 		'user-avatar' => _( 'Main profile photo ' ),
 	]);
