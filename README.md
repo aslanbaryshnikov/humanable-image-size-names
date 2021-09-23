@@ -4,7 +4,7 @@ It is a WordPress plugin that allows themes and other plugins to translate image
 
 ## How to use
 
-Move the plugin folder to the *wp-content/plugins/directory*, activate the plugin in the admin panel of your site, and then use it in the code of other plugins and themes:
+Move the plugin folder to the *wp-content/plugins/*, activate the plugin in the admin panel of your site, and then use it in the code of other plugins and themes:
 
 ```php
 function translate_names($names) {
